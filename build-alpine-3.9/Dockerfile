@@ -1,0 +1,37 @@
+FROM alpine:3.9
+
+RUN apk add --no-cache \
+        alsa-lib-dev \
+        aspell \
+        aspell-en \
+        autoconf \
+        automake \
+        build-base \
+        curl \
+        dpkg \
+        dpkg-dev \
+        fontconfig-dev \
+        gawk \
+        gconf-dev \
+        giflib-dev \
+        git \
+        glib-dev \
+        gnupg \
+        gnutls-dev \
+        gtk+3.0-dev \
+        lcms2-dev \
+        libcanberra-gtk3 \
+        libjpeg-turbo-dev \
+        libpng-dev \
+        librsvg-dev \
+        libxaw-dev \
+        libxml2-dev \
+        jansson-dev \
+        ncurses-dev \
+        openssh-client \
+        pango-dev \
+        paxmark \
+        python \
+        texinfo \
+        tiff-dev \
+    && /bin/true
